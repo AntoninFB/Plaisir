@@ -1,12 +1,25 @@
-class CompoTaskList {
+class CompoTaskList {/**
+    * @class
+    * @summary Constructeur de la fonction
+    * @param {*} param - Objet de paramétrage
+    */
     constructor(param) {
         this.param = param;
     }
-
+    /**
+     * 
+     * @summary retourne TaskList avec le bon paramètre
+     * 
+     */
     getTaskList() {
         return this.param.taskList;
     }
 
+    /**
+     * 
+     * @summary retourne l'élément
+     * 
+     */
     getElement() {
         return this.param.element;
     }
